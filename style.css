@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "jedi";
+    src: url("font/starjedi/Starjedi.ttf") format("truetype");
+}  
+@font-face {
+    font-family: "sith";
+    src: url("font/soloist3d.ttf") format("truetype");
+}  
+   
+body {
+    background-color: black;
+}
+
+h1,p {
+    color: white;
+    font-family: "sith";
+}
+
+p {
+    font-family: "jedi";
+}
+.vador {
+    text-align: center;
+    position: relative;
+
+    top: 500px;
+    float: none;
+
+    text-shadow: 1px 1px 2px black, 0 0 1em red, 0 0 0.2em red;
+}
+
+ 
